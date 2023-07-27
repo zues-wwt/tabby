@@ -1,4 +1,4 @@
-FROM ghcr.io/opennmt/ctranslate2:3.15.0-ubuntu20.04-cuda11.2 as source
+FROM ghcr.io/opennmt/ctranslate2:3.15.0-ubuntu20.04-cuda12.2 as source
 FROM nvidia/cuda:11.2.2-cudnn8-devel-ubuntu20.04 as builder
 
 ENV CTRANSLATE2_ROOT=/opt/ctranslate2
